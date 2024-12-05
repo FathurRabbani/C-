@@ -1,0 +1,33 @@
+# Tabel Tipe Data C++ Lengkap
+
+| **Tipe Data**      | **Ukuran Memori** | **Nilai Minimum**                      | **Nilai Maksimum**                      | **Keterangan**                                                                                 |
+|---------------------|-------------------|----------------------------------------|-----------------------------------------|---------------------------------------------------------------------------------------------|
+| **`bool`**         | 1 byte           | `false` (0)                           | `true` (1)                             | Tipe logika untuk menyimpan nilai benar/salah.                                              |
+| **`char`**         | 1 byte           | `-128`                                | `127`                                  | Karakter ASCII atau angka kecil yang disimpan sebagai nilai integer bertanda.              |
+| **`unsigned char`**| 1 byte           | `0`                                   | `255`                                  | Karakter atau angka non-negatif dalam rentang 0–255.                                        |
+| **`wchar_t`**      | 2–4 bytes        | Platform-dependent                    | Platform-dependent                     | Karakter wide untuk teks Unicode.                                                          |
+| **`char8_t`**      | 1 byte           | `0`                                   | `255`                                  | Karakter dalam encoding UTF-8 (C++20).                                                     |
+| **`char16_t`**     | 2 bytes          | `0`                                   | `65535`                                | Karakter dalam encoding UTF-16 untuk Unicode.                                              |
+| **`char32_t`**     | 4 bytes          | `0`                                   | `4294967295`                           | Karakter dalam encoding UTF-32 untuk Unicode.                                              |
+| **`short`**        | 2 bytes          | `-32,768`                             | `32,767`                               | Bilangan bulat kecil bertanda.                                                             |
+| **`unsigned short`**| 2 bytes         | `0`                                   | `65,535`                               | Bilangan bulat kecil non-negatif.                                                          |
+| **`int`**          | 4 bytes          | `-2,147,483,648`                      | `2,147,483,647`                        | Tipe integer default. Digunakan dalam operasi sehari-hari.                                 |
+| **`unsigned int`** | 4 bytes          | `0`                                   | `4,294,967,295`                        | Bilangan bulat non-negatif yang lebih besar dari `int`.                                    |
+| **`long`**         | 4 bytes          | `-2,147,483,648`                      | `2,147,483,647`                        | Mirip dengan `int` (dalam arsitektur 32-bit).                                              |
+| **`unsigned long`**| 4 bytes          | `0`                                   | `4,294,967,295`                        | Bilangan bulat non-negatif lebih besar dari `long`.                                        |
+| **`long long`**    | 8 bytes          | `-9,223,372,036,854,775,808`          | `9,223,372,036,854,775,807`            | Bilangan bulat ekstra besar. Cocok untuk aplikasi presisi tinggi.                          |
+| **`unsigned long long`** | 8 bytes   | `0`                                   | `18,446,744,073,709,551,615`           | Bilangan ekstra besar non-negatif.                                                        |
+| **`float`**        | 4 bytes          | ~`-3.4 × 10^38`                       | ~`3.4 × 10^38`                         | Angka desimal presisi tunggal untuk grafik atau game.                                       |
+| **`double`**       | 8 bytes          | ~`-1.7 × 10^308`                      | ~`1.7 × 10^308`                        | Angka desimal presisi ganda untuk aplikasi ilmiah.                                         |
+| **`long double`**  | 10–16 bytes      | ~`-1.1 × 10^4932`                     | ~`1.1 × 10^4932`                       | Angka desimal dengan presisi sangat tinggi. Cocok untuk simulasi numerik atau data besar.   |
+| **`void`**         | -                | -                                     | -                                      | Tipe khusus tanpa ukuran atau nilai. Untuk fungsi tanpa return value.                     |
+| **`nullptr_t`**    | -                | -                                     | -                                      | Pointer null, digunakan untuk nilai pointer kosong.                                        |
+| **`int8_t`**       | 1 byte           | `-128`                                | `127`                                  | Bilangan bulat kecil dengan tanda (C++11).                                                 |
+| **`uint8_t`**      | 1 byte           | `0`                                   | `255`                                  | Bilangan bulat kecil tanpa tanda (C++11).                                                  |
+| **`int16_t`**      | 2 bytes          | `-32,768`                             | `32,767`                               | Bilangan bulat sedang dengan tanda (C++11).                                                |
+| **`uint16_t`**     | 2 bytes          | `0`                                   | `65,535`                               | Bilangan bulat sedang tanpa tanda (C++11).                                                 |
+| **`int32_t`**      | 4 bytes          | `-2,147,483,648`                      | `2,147,483,647`                        | Bilangan bulat besar dengan tanda (C++11).                                                 |
+| **`uint32_t`**     | 4 bytes          | `0`                                   | `4,294,967,295`                        | Bilangan bulat besar tanpa tanda (C++11).                                                  |
+| **`int64_t`**      | 8 bytes          | `-9,223,372,036,854,775,808`          | `9,223,372,036,854,775,807`            | Bilangan bulat ekstra besar dengan tanda (C++11).                                          |
+| **`uint64_t`**     | 8 bytes          | `0`                                   | `18,446,744,073,709,551,615`           | Bilangan bulat ekstra besar tanpa tanda (C++11).                                           |
+| **`size_t`**       | Platform-dependent | `0`                                | Platform-dependent                     | Untuk menyimpan ukuran objek atau array.                                                  |
