@@ -27,4 +27,3 @@
 9. **`constexpr`**: Membantu meningkatkan efisiensi dengan memastikan nilai dihitung pada waktu kompilasi.
 10. **`inline`**: Mengurangi overhead fungsi kecil dengan menggabungkan kode langsung ke tempat pemanggilan.
 
-Tabel ini dapat digunakan untuk memahami dan memilih kelas penyimpanan yang tepat sesuai kebutuhan program. Kalau ada yang kurang jelas, tinggal tanyain aja! 😊
