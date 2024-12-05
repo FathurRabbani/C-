@@ -39,5 +39,6 @@ int main(){
     // tipe logika
     bool benar = true; 
     bool salah = false; 
+    
     return 0;
 }
