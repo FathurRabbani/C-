@@ -11,8 +11,6 @@ Ini adalah tempat di mana gue bakal:
 
 ---
 
----
-
 ## **💻 Folder Struktur**
 # Struktur Folder Belajar C++ 🚀
 
