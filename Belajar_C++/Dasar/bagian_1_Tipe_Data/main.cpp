@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdint>
 
 int main(){
     // macam macam tipe data c++
